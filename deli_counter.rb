@@ -8,6 +8,7 @@ def line(customers)
     puts "The line is currently:"
     customers.each_with_index do |customer, index|
       print " #{index+1}. #{customer}"
+    end
   end
 end
 
