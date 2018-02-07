@@ -8,7 +8,7 @@ def line(customers)
     customers.each_with_index do |customer, index|
       customers[index] = " #{index}. #{customer}"
     end
-    puts "The line is currently: #{customers.joins()}"
+    puts "The line is currently: #{customers.join()}"
   end
 end
 
