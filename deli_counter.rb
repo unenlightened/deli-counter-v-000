@@ -5,7 +5,7 @@ def line(customers)
   if customers.length == 0
     puts "The line is currently empty."
   else
-    customers.each_with_index.map do |customer, index|
+    customers.each_with_index.collect do |customer, index|
       " #{index+1}. #{customer}"
     end
     puts "The line is currently:#{customers.join()}"
