@@ -6,9 +6,7 @@ def line(customers)
     puts "The line is currently empty."
   else
     print "The line is currently:"
-    customers.each_with_index do |customer, index|
-      print " #{index}. #{customer}"
-    end
+
   end
 end
 
