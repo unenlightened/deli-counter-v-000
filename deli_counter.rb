@@ -7,5 +7,5 @@ def line(customers)
   end
 end
 
-def take_a_number(customers, customer)
+def take_a_number(customers, new_customer)
 end
