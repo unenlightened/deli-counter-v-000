@@ -9,7 +9,6 @@ def line(customers)
     customers.each_with_index do |customer, index|
       print " #{index+1}. #{customer}"
   end
-
 end
 
 def take_a_number(customers, new_customer)
